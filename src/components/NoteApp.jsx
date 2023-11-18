@@ -3,16 +3,6 @@ import NoteList from "./NoteList";
 import { getInitialData } from '../utils/index';
 import NoteInput from "./NoteInput";
 
-// function NoteApp() {
-//     const notes = getInitialData();
-
-//     return(
-//         <div className="note-app__body">
-//                 <NoteList notes={notes}/>
-//         </div>
-//     );
-// }
-
 class NoteApp extends React.Component {
     constructor(props){
         super(props);

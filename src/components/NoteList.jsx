@@ -4,7 +4,7 @@ import NoteItem from "./NoteItem";
 function NoteList({ notes, onDelete }) {
     return(
         <>
-            <h1>Catatan Aktif</h1>
+            <h2>Catatan Aktif</h2>
             <br />
             <div className="notes-list">
             {
